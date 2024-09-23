@@ -8,7 +8,9 @@ a {
 }
 
 hr {
-    color: #D2D5DA;
+    background-color: #D2D5DA;
+    border: none;
+    height: 1px;
 }
 
 div {
