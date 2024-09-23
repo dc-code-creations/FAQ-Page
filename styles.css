@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    color: #030616;
+}
+
+a {
+    color: #4E80EE;
+}
+
+hr {
+    color: #D2D5DA;
+}
+
+div {
+    padding: 20px 0;
+}
+
+.center {
+    background-color: #F8FAFC;
+
+    /* allows you to change the color of the WHOLE background via this element's bg color */
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.header {
+    text-align: center;
+}
+
+.qna {
+    background-color: #F8FAFC;
+}
