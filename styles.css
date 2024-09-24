@@ -88,10 +88,6 @@ div {
         padding-left: 20%;
         padding-right: 20%;
     }
-
-    /* ol, ul {
-        padding-inline-start: 20px;
-    } */
 }
 
 /* phone size */
@@ -118,9 +114,6 @@ div {
 
 /* small phone size */
 @media (max-width: 479px) {
-    /* body {
-        color: red;
-    } */
 
     .header {
         padding-left: 5%;
