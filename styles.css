@@ -55,10 +55,12 @@ div {
     padding: 0;
 }
 
+/* desktop size */
 .center {
     background-color: #F8FAFC;
 
-    /* allows you to change the color of the WHOLE background via this element's bg color */
+    /* allows you to center element and change the color of the WHOLE background via 
+       this element's bg color */
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -74,4 +76,60 @@ div {
 
 .answer {
     padding: 0;
+}
+
+/* tablet size */
+@media (max-width: 1279px ) {
+    .center {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    /* ol, ul {
+        padding-inline-start: 20px;
+    } */
+}
+
+/* phone size */
+@media (max-width: 1023px) {
+    .header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .center {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .answer {
+        padding: 20px 0;
+    }
+}
+
+/* Why doesn't this media query work? 
+     - answer: width and device width are not necessarily the same thing; used a meta tag 
+       to set them equal to each other so that the media queries work properly
+     - source: https://www.sitepoint.com/media-queries-width-vs-device-width/ */
+
+/* small phone size */
+@media (max-width: 640px) {
+    /* body {
+        color: red;
+    } */
+
+    .header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .center {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .answer {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
 }
