@@ -51,6 +51,10 @@ div {
     padding: 20px 0;
 }
 
+.page {
+    padding: 0;
+}
+
 .center {
     background-color: #F8FAFC;
 
@@ -61,8 +65,13 @@ div {
 
 .header {
     text-align: center;
+    padding: 50px 0;;
 }
 
 .qna {
     background-color: #F8FAFC;
+}
+
+.answer {
+    padding: 0;
 }
